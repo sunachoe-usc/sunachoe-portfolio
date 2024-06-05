@@ -51,7 +51,7 @@ const labs = [
     { action: 'Move down', key: 'S' },
     { action: 'Move right', key: 'D' }
   ] },
-  { name: 'Asteroids', path: '/Asteroids/Lab01_ss.html', image: '/Asteroids/Lab02_ss.png', description: 'Navigate through space and destroy asteroids.', controls: [
+  { name: 'Asteroids', path: '/Asteroids/Asteroids.html', image: '/Asteroids/Lab02_ss.png', description: 'Navigate through space and destroy asteroids.', controls: [
     { action: 'Accelerate forward', key: 'W' },
     { action: 'Accelerate backward', key: 'S' },
     { action: 'Rotate clockwise', key: 'D' },
@@ -97,9 +97,9 @@ const Projects = () => {
                 <div className="projects-grid">
                     {labs.map(lab => (
                         <div className="project-card" key={lab.name}>
-                            <a href={lab.path} target="_blank" rel="noopener noreferrer">
+                            <a href={process.env.PUBLIC_URL + lab.path} target="_blank" rel="noopener noreferrer">
                                 <div className="card-content">
-                                    <img src={lab.image} alt={lab.name} />
+                                    <img src={process.env.PUBLIC_URL + lab.image} alt={lab.name} />
                                     <h2>{lab.name}</h2>
                                     <p>{lab.description}</p>
                                     <div className="controls">
