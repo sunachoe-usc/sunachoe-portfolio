@@ -1,0 +1,21 @@
+Lab08/CMakeFiles/Lab08.dir/Core.cpp.o: \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/Lab08/Core.cpp \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstring \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assert \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__assertion_handler \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__verbose_abort \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__availability \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdlib \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /Users/sunachoe_1/Desktop/USC/itp380/labs-sunachoe-usc/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h
