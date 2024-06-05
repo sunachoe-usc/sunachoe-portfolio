@@ -1,7 +1,7 @@
 .projects-grid {
     display: grid;
     // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-columns: repeat(3, 1fr); // Ensure three columns
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     width: 100%;
     margin-top: 20px;
@@ -66,28 +66,26 @@
 
         img {
             width: 100%;
-            height: 300px; /* Set a fixed height for the images */
-            object-fit: cover; /* Ensure images cover the area while maintaining aspect ratio */
+            height: 300px; 
+            object-fit: cover; 
             border-radius: 5px;
         }
     }
 }
 
 .projects-page{
-    overflow-y: auto; // Enable vertical scrolling if needed
+    overflow-y: auto; 
+    .text-zone {
+        width: 80%; 
+        left: 10%;
+        top: 10%; 
+        transform: none; 
+        text-align: justify; 
+        
+        p {
+            white-space: nowrap; 
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
 }
-
-// .container {
-//     width: 100%;
-//     height: 100%;
-//     will-change: contents;
-//     position: relative;
-//     opacity: 0;
-//     top: 5%;
-//     margin: 0 auto;
-//     z-index: 1;
-//     transform-style: preserve-3d;
-//     animation: fadeIn 1s forwards;
-//     animation-delay: 1s;
-//     overflow-y: auto; // Enable vertical scrolling if needed
-// }

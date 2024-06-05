@@ -2,7 +2,11 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faJava, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
+import cppIcon from '../../assets/icons/cpp.svg'; 
+import pythonIcon from '../../assets/icons/python-5.svg'; 
+import mySQLIcon from '../../assets/icons/mysql.svg'; 
+import javaIcon from '../../assets/icons/java.svg'; 
 import Loader from 'react-loaders'
 
 const About = () => {
@@ -28,21 +32,23 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>I like to make games</p>
-                <p>I also like to play the guitar</p>
-                <p>I'm Sun A</p>
+                <p>Hey there, I'm Sun A! (You pronounce it as sun-ah). I'm currently a second year student at the University of Southern California ✌️ studying computer science 👩‍💻</p>
+                <p>
+                    You can view my resume <a href="/Sun A Choe, Resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">here</a>! Feel free to also explore my personal links at the bottom of the left sidebar 🔗
+                </p>
+                <p>Outside of class, I love playing the electric guitar 🎸, seeing nature 🌿, playing games 👾 and exploring cute cafes around me 🍵</p>
             </div>
 
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                        <img src={cppIcon} alt="C++" style={{ width: '50%', height: '50%' }} />
                     </div>
                     <div className='face2'>
-                        <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                    <img src={mySQLIcon} alt="MySQL" style={{ width: '70%', height: '70%' }} />
                     </div>
                     <div className='face3'>
-                        <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                        <img src={pythonIcon} alt="Python" style={{ width: '50%', height: '50%' }} />
                     </div>
                     <div className='face4'>
                         <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
@@ -51,7 +57,7 @@ const About = () => {
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                    <img src={javaIcon} alt="Java" style={{ width: '50%', height: '50%' }} />
                     </div>
                 </div>
             </div>

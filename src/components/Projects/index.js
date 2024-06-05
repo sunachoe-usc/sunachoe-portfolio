@@ -91,7 +91,7 @@ const Projects = () => {
                         Wanna play some games? Here are some of the game projects I have made in my latest semester at USC!
                     </p>
                     <p>
-                        I have used C++ and the SDL Library to make these amazing games. Click on any of them to play :)
+                        I have used C++ and the SDL Library to make these amazing games. Click on any of them to start playing :)
                     </p>
                 </div>
                 <div className="projects-grid">

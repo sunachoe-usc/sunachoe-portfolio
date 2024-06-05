@@ -74,3 +74,12 @@
         transform: rotateX(90deg);
     }
 }
+
+.about-page .resume-link {
+    color: #fff;
+    // text-decoration: none; 
+}
+
+.about-page .resume-link:hover {
+    color: #ffd700; 
+}
