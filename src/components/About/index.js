@@ -32,7 +32,7 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>Hey there, I'm Sun A! (You pronounce it as sun-ah). I'm currently a second year student at the University of Southern California ✌️ studying computer science 👩‍💻</p>
+                <p>Hey there, I'm Sun A! (You pronounce it as sun-ah). I'm currently a junior at the University of Southern California ✌️ studying computer science 👩‍💻</p>
                 <p>
                     You can view my resume <a href={`${process.env.PUBLIC_URL}/Sun A Choe, Resume.pdf`} target="_blank" rel="noopener noreferrer" className="resume-link">here</a>! Feel free to also explore my personal links at the bottom of the left sidebar 🔗
                 </p>
