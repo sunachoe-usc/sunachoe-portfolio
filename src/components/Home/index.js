@@ -44,7 +44,7 @@ const Home = () => {
                 strArray={schoolArray}
                 idx={11} />
                 </h1>
-                <h2>Game Developer / Guitarist / Coffee Enthusiast</h2>
+                <h2>Software Engineer / Guitarist / Coffee Enthusiast</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />
