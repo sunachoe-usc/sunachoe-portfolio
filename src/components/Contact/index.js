@@ -49,7 +49,7 @@ const Contact = () => {
                     idx={15}/>
                 </h1>
                 <p>
-                    I am seeking for internship opportunities that has anything to do with a computer! 
+                    I'd love to talk more about anything that has to do with a computer! 
                     Contact me if you would like to have a chat using the form below.
                 </p>
                 <div className='contact-form'>
