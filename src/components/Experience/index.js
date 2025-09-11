@@ -60,7 +60,7 @@ const experiences = [
                   rel="noopener noreferrer"
                   className="org-link"
                 >
-                  AthenaHacks 2024
+                  AthenaHacks 2025
                 </a>
                 , Executive Board Member at{' '}
                 <a
