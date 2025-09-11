@@ -445,6 +445,11 @@ const experiences = [
 
             </div>
          </div>
+
+         <footer className="page-footer">
+            <p>Last updated Sep 2025</p>
+        </footer>
+
          <Loader type="pacman" />
         </>
     )
