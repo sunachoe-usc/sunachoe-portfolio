@@ -34,7 +34,7 @@ const About = () => {
                 </h1>
                 <p>Hey there, I'm Sun A! (You pronounce it as sun-ah). I'm currently a senior at the University of Southern California ✌️ studying computer science 👩‍💻</p>
                 <p>
-                    You can view my resume <a href={`${process.env.PUBLIC_URL}/Sun_A_Choe_2025_Resume1.pdf`} target="_blank" rel="noopener noreferrer" className="resume-link">here</a>! Feel free to also explore my personal links at the bottom of the left sidebar 🔗
+                    You can view my resume <a href={`${process.env.PUBLIC_URL}/Sun A Choe_2025_Resume1.pdf`} target="_blank" rel="noopener noreferrer" className="resume-link">here</a>! Feel free to also explore my personal links at the bottom of the left sidebar 🔗
                 </p>
                 <p>Outside of class, I love playing the electric guitar 🎸, seeing nature 🌿, playing games 👾 and exploring cute cafes around me 🍵</p>
             </div>
