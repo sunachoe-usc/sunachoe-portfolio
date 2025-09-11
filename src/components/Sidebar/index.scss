@@ -80,9 +80,15 @@
             }
         }
 
+        a.experience-link {
+            &:after {
+                content: 'JOURNEY';
+            }
+        }
+
         a.projects-link {
             &:after {
-                content: 'PROJECTS';
+                content: 'GAMES';
             }
         }
 

@@ -88,10 +88,10 @@ const Projects = () => {
                         />
                     </h1>
                     <p>
-                        Wanna play some games? Here are some of the game projects I have made in my latest semester at USC!
+                        Wanna play some games? Here are some of the cool game projects I have made as a sophomore at USC!
                     </p>
                     <p>
-                        I have used C++ and the SDL Library to make these amazing games. Click on any of them to start playing 🎮
+                        I have used C++ and the SDL Library to make these games. Click on any of them to start playing 🎮
                     </p>
                 </div>
                 <div className="projects-grid">

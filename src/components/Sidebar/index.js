@@ -3,8 +3,9 @@ import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faMugHot, faGamepad } from  '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faMugHot, faGamepad, faSuitcase, faRoute } from  '@fortawesome/free-solid-svg-icons'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons/faBriefcase'
 
 
 const Sidebar = () => (
@@ -19,6 +20,9 @@ const Sidebar = () => (
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
+            </NavLink>
+            <NavLink exact="true" activeclassname="active" className="experience-link" to="/experience">
+                <FontAwesomeIcon icon={faRoute} color="#4d4d4e"/>
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="projects-link" to="/projects">
                 <FontAwesomeIcon icon={faGamepad} color="#4d4d4e"/>
