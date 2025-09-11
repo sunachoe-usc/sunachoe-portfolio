@@ -2,7 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faGraduationCap, faCode, faTrophy, faCalendarAlt, faMapMarkerAlt, faFileAlt, faFile } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faGraduationCap, faCode, faTrophy, faCalendarAlt, faMapMarkerAlt, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 import React from 'react'
 
@@ -112,7 +112,7 @@ const experiences = [
       duration: 'May 2025 – Aug 2025',
       description: (
         <>
-          Spent the summer on the Threads iOS team helping bring new{" "}
+          Spent the summer on the Threads team helping bring new{" "}
           <a
             href="https://about.fb.com/news/2025/07/introducing-messaging-highlighted-perspectives-threads/"
             target="_blank"
@@ -121,13 +121,13 @@ const experiences = [
           >
             messaging
           </a>{" "}
-          features to life. I owned 5 features from idea to launch and loved
-          collaborating with design and product to make them shine.
+          features to life on iOS. I owned 5 new features, engineered and shipped them end-to-end — I loved
+          collaborating with design and product to make them shine!
         </>
       ),
       technologies: ['Swift', 'Objective-C', 'GraphQL', 'Mercurial', 'iOS'],
       achievements: [
-        'Shipped Mark as Unread, Birthday UI Activation, and Sharesheet null/error states end-to-end',
+        'Shipped Mark as Unread, Birthday UI Activation, and Sharesheet null/error states; 2 more features to be live soon!',
         'Zero regressions at launch across shipped surfaces',
         'Delivered to a product with 115M+ daily active users'
       ]
