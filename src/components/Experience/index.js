@@ -2,7 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faGraduationCap, faCode, faTrophy, faCalendarAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faGraduationCap, faCode, faTrophy, faCalendarAlt, faMapMarkerAlt, faFileAlt, faFile } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 import React from 'react'
 
@@ -180,7 +180,7 @@ const experiences = [
     },
     {
         id: 5,
-        type: 'achievement', // or 'work' if you want it grouped with jobs
+        type: 'research', 
         title: 'Main Researcher',
         company: 'Pioneer Research Program (Prof. Julian Shun @ MIT, EECS)',
         location: 'Remote',
@@ -296,6 +296,7 @@ const experiences = [
             case 'education': return faGraduationCap;
             case 'project': return faCode;
             case 'achievement': return faTrophy;
+            case 'research': return faFileAlt;
             default: return faBriefcase;
         }
     };
@@ -306,6 +307,7 @@ const experiences = [
             case 'education': return '#4CAF50';
             case 'project': return '#2196F3';
             case 'achievement': return '#FF9800';
+            case 'research': return '#bb00ff';
             default: return '#ffd700';
         }
     };

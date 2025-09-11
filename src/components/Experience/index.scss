@@ -105,6 +105,14 @@
             background: rgba(255, 152, 0, 0.2);
         }
     }
+
+    &.research {
+        border-left-color: #bb00ff;
+        
+        .experience-icon {
+            background: rgba(191, 0, 255, 0.145);
+        }
+    }
 }
 
 .experience-icon {
